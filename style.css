@@ -1,0 +1,17 @@
+div {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+pre {
+    border: 1px solid black;
+    padding: 2px 2px 2px 2px;
+}
