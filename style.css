@@ -1,112 +1,144 @@
 div {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
+}
+
+body {
+  background-color: #000;
 }
 
 h1 {
-    color: #fff;
-    background-color: #000;
-    border: 3px solid #000;
-    position: sticky;
-    top: 10px;
-    text-align: center;
+  color: #fff;
+  background-color: #7de19b;
+  border: 3px solid #000;
+  position: sticky;
+  top: 10px;
+  text-align: center;
+}
+
+p {
+  color: white;
 }
 
 h2 {
-    color: blue;
-    border: 1px dashed blue;
-    text-align: center;
+  color: white;
+  border: 3px solid #7de19b;
+  text-align: center;
 }
 
-img {
-    border: 3px solid yellow;
-    margin: 30px;
-    cursor: pointer;
+.kucing {
+  border: 3px solid yellow;
+  margin: 1rem;
+  width: 7rem;
+  cursor: pointer;
 }
 
-pre {
-    border: 1px solid black;
-    padding: 2px 2px 2px 2px;
-    margin: 30px;
+.anjing {
+  border: 3px solid yellow;
+  margin: 1rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+fieldset {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+p {
+  border: 1px solid white;
+  padding: 1rem;
+  margin: 0, 5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
-    margin: 30px;
+  margin: 30px;
 }
 
 .kepala {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 .badan {
-    background-color: rgb(248, 150, 170);
+  background-color: rgb(248, 150, 170);
 }
 
 #kepala {
-    background-color: chartreuse;
+  background-color: chartreuse;
 }
 
 #badan {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    background: cyan;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
+  background: #7de19b;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 li {
-    color: black;
-    background: cyan;
-    display: block;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-    transition-duration: o,5;
-    float: left;
+  color: black;
+  background: #7de19b;
+  display: inline-block;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: o, 5;
 }
 
 li a {
-    color: #fff;
+  color: #fff;
 }
 
 li:hover,
 li:focus-within {
-    background: crimson;
-    cursor: pointer;
+  background: cyan;
+  cursor: pointer;
 }
 
 li:focus-within a {
-    outline: none;
+  outline: none;
 }
 
 ul li ul {
-    background: cyan;
-    visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-    margin-top: 1rem;
-    position: absolute;
-    left: 0;
-    display: none;
+  background: #7de19b;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  margin-top: 1rem;
+  position: absolute;
+  left: 0;
+  display: none;
 }
 
 ul li:hover > ul,
 ul li:focus-within > ul,
 ul li ul:hover,
 ul il ul:focus {
-    visibility: visible;
-    opacity: 1;
-    display: block;
+  visibility: visible;
+  opacity: 1;
+  display: block;
 }
 
 ul li ul li {
-    clear: both;
-    width: 63%;
+  clear: both;
+  width: 63%;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: #000;
+  }
 }
