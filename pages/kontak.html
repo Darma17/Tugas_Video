@@ -7,64 +7,70 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <div>
-      <h1>Hewan</h1>
-      <a href="https://www.youtube.com/watch?v=eIEHQbl3HKU" target="_blank"
-        ><img
-          src="../images/kucing.jpg"
-          alt="gambar kucing"
-          width="100"
-          class="kucing"
-      /></a>
-      <a href="https://www.youtube.com/watch?v=6AtzTHhKaXA" target="_blank"
-        ><img
-          src="../images/anjing.jpg"
-          alt="gambar anjing"
-          height="125"
-          class="anjing"
-      /></a>
-      <p>Tekan gambar untuk melihat tingkah lucu mereka</p>
-      <hr />
-
-      <ul>
-        <a href="../latihan.html"><li>home</li></a>
-        <li>
-          hewan :
-          <ul>
-            <a href="kucing.html"><li>kucing</li></a>
-            <a href="anjing.html"><li>Anjing</li></a>
-          </ul>
-        </li>
-        <a href="kontak.html"><li>kontak</li></a>
-      </ul>
-
-      <br />
-      <br />
-      <br />
-
-      <form action="kontak.html" method="get">
-        <fieldset>
-          Masukkan pesan yang ingin ada sampaikan
-          <br />
-          <br />
-          <label for="nama">Nama:</label>
-          <input type="text" name="nama" placeholder="Nama anda!" required />
-          <br />
-          <label for="email"> Email :</label>
-          <input type="email" name="email" placeholder="Email anda!" required />
-          <br />
-          <label for="pesan">Pesan :</label>
-          <textarea
-            name="pesam"
-            cols="30"
-            rows="10"
-            id=""
-            placeholder="Pesan anda!"
-          ></textarea>
-          <br />
-          <input type="button" name="kirim" value="kirim" />
-        </fieldset>
-      </form>
+    <div class="wrapper">
+      <div class="content">
+        <header>
+          <a href="https://www.youtube.com/watch?v=6AtzTHhKaXA" target="_blank"
+            ><img src="../images/paw.png" alt="Logo"
+          /></a>
+          <h1>Hewan</h1>
+          <nav>
+            <ul>
+              <a href="../latihan.html"><li>home</li></a>
+              <li>
+                hewan :
+                <ul>
+                  <a href="kucing.html"><li>kucing</li></a>
+                  <a href="anjing.html"><li>Anjing</li></a>
+                </ul>
+              </li>
+              <a href="kontak.html"><li>kontak</li></a>
+            </ul>
+          </nav>
+        </header>
+        <section>
+          <form action="kontak.html" method="get">
+            <fieldset>
+              Masukkan pesan yang ingin ada sampaikan
+              <br />
+              <br />
+              <label for="nama">Nama:</label>
+              <input
+                type="text"
+                name="nama"
+                placeholder="Nama anda!"
+                required
+              />
+              <br />
+              <label for="email"> Email :</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email anda!"
+                required
+              />
+              <br />
+              <label for="pesan">Pesan :</label>
+              <textarea
+                name="pesam"
+                cols="30"
+                rows="10"
+                id=""
+                placeholder="Pesan anda!"
+              ></textarea>
+              <br />
+              <input type="button" name="kirim" value="kirim" />
+            </fieldset>
+          </form>
+        </section>
+        <footer>
+          <p>
+            <i class="fa fa-copyright" aria-hidden="true"
+              >created by: Darma Sugiansyah Mustofa</i
+            >
+          </p>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
