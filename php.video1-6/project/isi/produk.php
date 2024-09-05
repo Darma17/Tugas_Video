@@ -1,2 +1,0 @@
-<h1>Product</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum adipisci doloribus, earum rerum sed facilis quasi qui deleniti provident, libero obcaecati dolores eos, architecto tempore dolorum aliquam. Praesentium, quisquam quos?</p>

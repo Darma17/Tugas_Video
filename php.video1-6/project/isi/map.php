@@ -1,2 +1,0 @@
-<h1>Map</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat animi asperiores, nesciunt quae maiores voluptas libero aspernatur amet vitae? Fugiat, sapiente soluta? Eius quibusdam illo quia sequi tempore! Suscipit, facilis?</p>
