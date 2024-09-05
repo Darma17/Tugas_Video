@@ -1,0 +1,2 @@
+<h1>Jurusan mu apa?</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat rem cumque minima at voluptatibus, necessitatibus possimus pariatur, vitae quod nam voluptas dicta facilis voluptatum dolor praesentium dolores officia esse ab?</p>

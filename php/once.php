@@ -1,27 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-    <nav>
-        <ul>
-            <li>Hello World!</li>
-            <li>Hello World</li>
-            <li>Hello Worl</li>
-            <li>Hello Wor</li>
-            <li>Hello Wo</li>
-            <li>Hello W</li>
-            <li>Hello </li>
-            <li>Hello</li>
-            <li>Hell</li>
-            <li>Hel</li>
-            <li>He</li>
-            <li>H</li>
-        </ul>
-    </nav>
-</body>
-</html>
+<nav>
+    <ul>
+        <li><a href="?menu=kontak">Kontak</a></li>
+        <li><a href="?menu=sejarah">Sejarah</a></li>
+        <li><a href="?menu=jurusan">Jurusan</a></li>
+    </ul>
+</nav>
+
+<?php 
+    if (isset($_GET['menu'])) {
+        $menu = $_GET['menu'];
+        require_once $menu.'.php';
+    }
+?>

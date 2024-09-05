@@ -1,0 +1,2 @@
+<h1>Kontak cuy</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloribus dolore praesentium illum id, autem molestiae illo fuga veritatis cum quidem omnis quasi. Itaque neque ratione ipsam quibusdam quidem ipsum.</p>
