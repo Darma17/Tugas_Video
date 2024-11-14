@@ -1,0 +1,29 @@
+[
+    {
+    "idmenu" : 1,
+    "idketegori" : 1,
+    "menu" : "Bakso",
+    "harga" : 8000,
+    "warna" :["biru", "putih", "hitam"],
+    "stok" : true,
+    "keterangan" : null
+    },
+    {
+    "idmenu" : 2,
+    "idketegori" : 1,
+    "menu" : "Sate",
+    "harga" : 10000,
+    "warna" :["merah", "hijau"],
+    "stok" : true,
+    "keterangan" : null
+    },
+    {
+    "idmenu" : 3,
+    "idketegori" : 2,
+    "menu" : "Es Teh",
+    "harga" : 5000,
+    "warna" :["cokelat", "hijau"],
+    "stok" : true,
+    "keterangan" : null
+    }
+]

@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .logo img {
+    width: 200px;
+    margin: auto;
+    display: block;
+  }
+  
+  .header {
+    margin: 1%;
+    background-color: #000;
+  }
+  
+  .nav-left,
+  .nav-right {
+    background-color: black;
+  }
+  
+  .nav-left ul,
+  .nav-right ul {
+    list-style: none;
+  }
+  
+  .nav-left a,
+  .nav-right a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+  }
+  
+  .nav-left a:hover {
+    background: #333;
+  }
+  
+  .nav-right a:hover {
+    background: #333;
+  }
+  
+  @media screen and (min-width: 560px) {
+    .header {
+      width: 960px;
+      margin: auto;
+      display: flex;
+      margin-top: 1%;
+      justify-content: space-between;
+    }
+  
+    .nav-left ul {
+      display: flex;
+    }
+  
+    .nav-right ul {
+      display: flex;
+    }
+  
+    .nav-left,
+    .nav-right {
+      background: none;
+    }
+  
+    .nav-left a,
+    .nav-right a {
+      color: white;
+      margin-right: 10px;
+    }
+  }
+  
+  /* main */
+  
+  .main {
+    margin-top: 20px;
+  }
+  
+  .main-left img {
+    width: 450px;
+    display: block;
+    margin: auto;
+  }
+  
+  .main-right {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 560px) {
+    .main {
+      width: 960px;
+      margin: auto;
+      display: flex;
+      margin-top: 30px;
+      justify-content: center;
+    }
+  
+    .main-left img {
+      width: 500px;
+    }
+  
+    .main-right {
+      margin: auto;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-align: left;
+      margin-left: 50px;
+    }
+  
+    .main-right h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  
+  /* produk */
+  
+  .display {
+    margin-top: 8%;
+    text-align: center;
+    color: black;
+  }
+  
+  .image img {
+    width: 250px;
+    display: block;
+    margin: auto;
+  }
+  
+  .produk-conten {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .deskripsi p {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 560px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .produk {
+      width: 960px;
+      margin-top: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .display h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-block-end: 12px;
+      margin-block-start: 12px;
+    }
+  
+    .produk-conten {
+      height: 300px;
+    }
+  
+    .image img {
+      width: 200px;
+      height: 150px;
+      display: block;
+      margin: auto;
+    }
+  }
+
+  .btn-beli > button {
+    font-size: large;
+    width: 50px;
+    height: 30px;
+  }
+  
+  /* informasi */
+  
+  .info {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .info-content {
+    height: 70px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon img {
+    width: 50px;
+    display: block;
+    margin-right: 10px;
+  }
+  
+  .info-isi h2 {
+    font-size: 15px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  
+  .info-isi p {
+    font-size: 12px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  
+  @media (min-width: 560px) {
+    .info {
+      width: 960px;
+      margin: auto;
+      justify-content: space-between;
+      margin-top: 60px;
+    }
+  }
+  
+  /* medsos */
+  
+  .medsos {
+    margin-bottom: 10px;
+  }
+  
+  .medsos-icon img {
+    width: 50px;
+    margin: 10px;
+  }
+  
+  .medsos-icon {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .medsos-isi {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .medsos-form {
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .medsos-form form input {
+    width: 200px;
+    height: 25px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    margin-right: -4px;
+  }
+  
+  .medsos-form form input [type="email"] {
+    padding: 10px;
+  }
+  
+  .medsos-form form button {
+    height: 27px;
+    padding: 6, 5px;
+    text-transform: uppercase;
+    background-color: lightblue;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 560px) {
+    .medsos {
+      width: 960px;
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+  
+  /* footer */
+  
+  footer {
+    margin-bottom: 100px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    padding-top: 5px;
+  }
+  
+  .logo-bank img {
+    width: 70px;
+  }
+  
+  .identitas {
+    flex: 1;
+  }
+  
+  .sitemap {
+    flex: 1;
+    list-style: none;
+  }
+  
+  .sitemap li {
+    padding-top: 10px;
+  }
+  
+  .sitemap li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .payment {
+    flex: 1;
+  }
+  
+  .sitemap h2,
+  .identitas h2 {
+    font-size: 14px;
+  }
+  
+  .identitas p {
+    font-size: 12px;
+  }
+  
+  .sitemap a {
+    font-size: 12px;
+  }
+  
+  .bank p {
+    font-size: 10px;
+  }
+  
+  .bank h2 {
+    font-size: 12px;
+  }
+  
+  .bank {
+    padding-bottom: 10px;
+  }
+  
+  @media (min-width: 560px) {
+    footer {
+      width: 960px;
+      margin: auto;
+      padding-top: 5px;
+    }
+  
+    .sitemap h2,
+    .identitas h2 {
+      font-size: 20px;
+    }
+  }
+  

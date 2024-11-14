@@ -1,4 +1,4 @@
-=* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,11 +35,11 @@
 }
 
 .nav-left a:hover {
-  background: yellow;
+  background: #333;
 }
 
 .nav-right a:hover {
-  background: yellow;
+  background: #333;
 }
 
 @media screen and (min-width: 560px) {
